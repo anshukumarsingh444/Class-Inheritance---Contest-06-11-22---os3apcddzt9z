@@ -7,7 +7,7 @@ function Circle() {
 } 
 
 Circle.prototype.__proto__ = Shape.prototype;
-Circle.prototype.__proto__.calculateArea = function() {};
+Circle.prototype.calculateArea = function() {};
 
 
 // export class using module.exports
